@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
+/*font-family: 'Inter', sans-serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+@font-face {
+  src: url('./assets//fonts/Neun/NeueMachina-Light.otf');
+
+  font-family: neue-machina;
+}
+
+:root {
+  --ff-primary: 'Raleway';
+  --ff-secondary: 'Plus Jakarta Sans', sans-serif;
+  --ff-tertiary: 'Inter', sans-serif;
+  --ff-nenu: 'neue-machina', sans-serif;
+
+  --fs-xs: 14px;
+  --fs-sm: 16px;
+  --fs-2sm: 18px;
+  --fs-3sm: 20px;
+  --fs-md: 22px;
+  --fs-mmd: 24px;
+  --fs-2mmd: 36px;
+  --fs-2md: 38px;
+  --fs-lg: 46px;
+  --fs-2lg: 28px;
+  --fs-xl: 45px;
+
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --semiBold: 600;
+  --bold: 700;
+  --extraBold: 800;
+  --extraLarge: 900;
+
+  --primary-color: #1643C3;
+  --green-color: #02cdcf;
+  --white-color: #FFFFFF;
+  --black-color: #000000;
+  --secondary-color: #0b0a0a;
+  --gray-color: #fcfcfc;
+  --lightBule-color: #4878FF;
+}
+
+
+
+.ff_primary {
+  font-family: var(--ff-primary) !important;
+}
+
+.ff_secondary {
+  font-family: var(--ff-secondary) !important;
+}
+
+.ff_tertiary {
+  font-family: var(--ff-tertiary) !important;
+}
+
+.ff_nenu {
+  font-family: var(--ff-nenu);
+}
+
+.fs_xs {
+  font-size: var(--fs-xs) !important;
+}
+
+
+.fs_sm {
+  font-size: var(--fs-sm) !important;
+}
+
+.fs_2sm {
+  font-size: var(--fs-2sm) !important;
+}
+
+.fs_3sm {
+  font-size: var(--fs-3sm) !important;
+}
+
+.fs_xl {
+  font-size: var(--fs-xl) !important;
+}
+
+.fs_md {
+  font-size: var(--fs-md) !important;
+}
+
+.fs_mmd {
+  font-size: var(--fs-mmd) !important;
+}
+.fs_2mmd {
+  font-size: var(--fs-2mmd) !important;
+}
+
+.fs_2md {
+  font-size: var(--fs-2md) !important;
+}
+
+.fs_lg {
+  font-size: var(--fs-lg) !important;
+}
+
+.fs_2lg {
+  font-size: var(--fs-2lg) !important;
+}
+
+.fw_light {
+  font-weight: var(--light) !important;
+}
+
+.fw_regular {
+  font-weight: var(--regular) !important;
+}
+
+.fw_medium {
+  font-weight: var(--medium) !important;
+}
+
+.fw_semiBold {
+  font-weight: var(--semiBold) !important;
+}
+
+.fw_bold {
+  font-weight: var(--bold) !important;
+}
+
+.fw_extraBold {
+  font-weight: var(--extraBold) !important;
+}
+
+.fw_extraLarge {
+  font-weight: var(--extraLarge) !important;
+}
+
+.bg_primary {
+  background-color: var(--primary-color);
+}
+
+.bg_white {
+  background-color: var(--white-color) !important;
+}
+
+.bg_black {
+  background-color: var(--black-color);
+}
+
+.bg_secondary {
+  background-color: var(--secondary-color);
+}
+
+.bg_gray {
+  background-color: var(--gray-color);
+}
+
+.color_primary {
+  color: var(--primary-color);
+}
+
+.color_white {
+  color: var(--white-color) !important;
+}
+
+.color_black {
+  color: var(--black-color);
+}
+
+.color_secondary {
+  color: var(--secondary-color);
+}
+
+.color_gray {
+  color: var(--gray-color);
+}
+
+.color_Blue {
+  color: var(--lightBule-color);
+}
+
+.mycontainer {
+  max-width: 1140px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media (min-width:576px) {
+  :root {
+    --fs-xs: 14px;
+    --fs-sm: 16px;
+    --fs-2sm: 18px;
+    --fs-3sm: 20px;
+    --fs-md: 22px;
+    --fs-mmd: 24px;
+    --fs-2md: 38px;
+    --fs-lg: 46px;
+    --fs-2lg: 34px;
+    --fs-xl: 60px;
+  }
+
+  .bg-sm-transparent {
+    background-color: transparent !important;
+  }
+}
+
+@media (min-width:768px) {
+  :root {
+    --fs-xs: 14px;
+    --fs-sm: 16px;
+    --fs-2sm: 18px;
+    --fs-3sm: 20px;
+    --fs-md: 22px;
+    --fs-mmd: 24px;
+    --fs-2md: 38px;
+    --fs-lg: 46px;
+    --fs-2lg: 40px;
+    --fs-xl: 72px;
+  }
+}
+
+@media (min-width:992px) {
+  :root {
+    --fs-xs: 14px;
+    --fs-sm: 16px;
+    --fs-2sm: 18px;
+    --fs-3sm: 20px;
+    --fs-md: 22px;
+    --fs-mmd: 24px;
+    --fs-2md: 38px;
+    --fs-lg: 46px;
+    --fs-2lg: 52px;
+    --fs-xl: 85px;
+  }
+}

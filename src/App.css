@@ -1,0 +1,901 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* text-decoration: none !important; */
+  list-style-type: none !important;
+}
+
+.pt-72 {
+  padding-top: 72px;
+}
+
+
+.bgImgheader {
+  height: 85vh;
+  transform: translateX(-20px);
+}
+
+.bgImgheader2 {
+  bottom: 0;
+  height: 600px;
+  width: 1000px;
+  right: 200px;
+}
+
+.p16_31 {
+  padding: 16px 31px;
+}
+
+.nav-btn {
+  border-radius: 8px;
+  border: 1px solid var(--primary-color);
+}
+
+.heroImg {
+  width: 100%;
+  max-width: 600px;
+  transform: translateY(-30px);
+}
+
+.heroImg1 {
+  width: 100%;
+}
+
+.circleHeader {
+  height: 10.32px;
+  width: 10.32px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
+
+.circleposition {
+  top: 35px;
+  right: 2%;
+}
+
+.bg_imgBull {
+  background: url('./assets/img/webp/bull_img.png') no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-top: -26px;
+}
+
+.bg-core {
+  background: url('./assets/img/webp/bgCore_img.png') no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  z-index: 4;
+}
+
+.padding11_12 {
+  padding: 12px 11px;
+}
+
+.cardbutton {
+  border-radius: 8px;
+  background: rgba(108, 103, 241, 0.20);
+  border: none;
+}
+
+
+.cardSlider {
+  border-radius: 12px;
+  border: 1px solid #1643C3;
+  background: linear-gradient(124deg, rgba(19, 245, 255, 0.25) 7.19%, rgba(0, 66, 255, 0.00) 93.2%);
+  backdrop-filter: blur(12.5px);
+  padding: 17px 19px 31px 17px;
+}
+
+.line {
+  border-radius: 18px;
+  opacity: 0.2;
+  background: var(--white-color);
+  height: 3px;
+  width: 100%;
+}
+
+.amplImg {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.2;
+}
+
+.bulerCircle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 190px;
+  height: 190px;
+  flex-shrink: 0;
+  opacity: 0.45;
+  filter: blur(60px);
+}
+
+.bulerCircle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 190px;
+  height: 190px;
+  flex-shrink: 0;
+  opacity: 0.45;
+  filter: blur(60px);
+}
+
+
+.coludImg {
+  top: -100%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.py176_100 {
+  padding: 70px 0px 40px 0px;
+}
+
+.mt-30 {
+  margin-top: -2px;
+}
+
+.slick-dots li button:before {
+  font-size: 17px !important;
+  line-height: 7px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 20px !important;
+  height: 7px !important;
+  content: '' !important;
+  opacity: 1 !important;
+  border-radius: 23px !important;
+  background: url('./assets/img/webp/slick-img.png') no-repeat !important;
+}
+
+.slick-dots li button {
+  width: 1px !important;
+  height: 7px !important;
+  border-radius: 23px !important;
+}
+
+.slick-dots li {
+  height: 7px !important;
+  width: 1px !important;
+  margin: 0px 0px !important;
+  padding: 0px 15px !important;
+}
+
+
+.slick-dots li.slick-active button:before {
+  background: url('./assets/img/webp/slick-img2.png') no-repeat !important;
+  width: 100% !important;
+  max-width: 51px !important;
+  opacity: 1 !important;
+}
+
+.lineh {
+  line-height: 24.21px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.teamImg {
+  max-width: 285px;
+  width: 100%;
+  height: 225px;
+}
+
+.imgCard1 {
+  height: 70px;
+  width: 70;
+}
+
+.py-176 {
+  padding: 60px 0px;
+}
+
+.bg-color {
+  background: linear-gradient(to bottom, #ffffff 50%, var(--primary-color) 50%);
+}
+
+.max-w-1030 {
+  max-width: 1030px !important;
+}
+
+.partnerBox {
+  border-radius: 12.132px;
+  border: 1.213px solid #C3D3FF;
+  background: linear-gradient(93deg, #1643C3 10.24%, #369EFE 208.68%);
+  box-shadow: 0px 7px 15px 0px rgba(22, 67, 195, 0.21);
+  height: 145.583px;
+  max-width: 327px;
+  width: 100%;
+}
+
+.inline_btn {
+  padding: 25px 31px;
+  border-radius: 8px;
+  border: 1px solid var(--primary-color);
+}
+
+.bg-supply {
+  background: url("./assets//img/webp/bg_supply.png") no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.max-w-853 {
+  max-width: 853px;
+  width: 100%;
+}
+
+.border_top {
+  border-top: 1px solid #345CCB;
+}
+
+.bg-contant {
+  background: linear-gradient(76deg, #1643C3 5.09%, #369EFE 88.75%);
+  box-shadow: 0px 17px 29px 0px rgba(21, 64, 186, 0.17);
+  backdrop-filter: blur(9.5px);
+}
+
+input {
+  outline: none;
+  border-top: unset;
+  border-left: unset;
+  border-right: unset;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.60);
+  ;
+}
+
+textarea {
+  resize: none;
+  outline: none;
+  height: 76px;
+  border-top: unset;
+  border-left: unset;
+  border-right: unset;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.60);
+}
+
+.outline-btn {
+  padding: 22px 40px;
+  border-radius: 8px;
+  background: linear-gradient(93deg, #1643C3 10.28%, #369EFE 96.25%), linear-gradient(179deg, #1643C3 0.63%, #000 175.69%);
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.bg-footer {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.underline::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: var(--white-color);
+  bottom: 0;
+}
+
+.imgmapCard {
+  border-radius: 8px;
+  max-width: 364px;
+  width: 100%;
+  box-shadow: 0px 5px 23px 0px rgba(22, 67, 195, 0.32);
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.card-btn {
+  padding: 13px 21.5px 12px 21.5px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.30);
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(14.5px);
+}
+
+.logo_img {
+  width: 74px;
+  height: 74px;
+  border-radius: 4.792px;
+}
+
+.logoBorder {
+  border-radius: 5.75px;
+  border: 0.958px solid rgba(255, 255, 255, 0.50);
+  background: rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(9.5px);
+  padding: 9px;
+}
+
+.card-inlinebtn {
+  padding: 3px 8px 3px 5px;
+  border-radius: 47.058px;
+  border: 1.272px solid rgba(255, 255, 255, 0.60);
+  background: rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(15.89805793762207px);
+}
+
+.circleImg {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
+.imgmapCard1 {
+  transition: all linear 300ms;
+}
+
+.imgsl {
+  bottom: -100%;
+  max-width: 364px;
+  width: 100%;
+  height: 100%;
+  transition: all linear 300ms;
+}
+
+.imgmapCard1:hover .imgsl {
+  bottom: 0;
+  z-index: 10;
+  max-width: 364px;
+  border-radius: 8px;
+}
+
+.monkeyImg {
+  width: 100%;
+}
+
+
+.bg-hover {
+  max-width: 364px;
+  width: 100%;
+  z-index: 100;
+  border-radius: 8px;
+  background: linear-gradient(170deg, #1643C3 0.65%, #000 139.04%), linear-gradient(176deg, #3965E4 10.14%, #0C1F53 120.71%);
+  box-shadow: 0px 5px 23px 0px rgba(22, 67, 195, 0.24);
+  backdrop-filter: blur(49.5px);
+}
+
+.imgCard {
+  max-width: 72px;
+  height: 31px;
+  width: 100%;
+}
+
+.bg-bull {
+  background: url('./assets/img/webp/bg-bull.png') no-repeat;
+  background-position: top;
+  background-size: 100% 25%;
+}
+
+.pt-132 {
+  padding-top: 132px;
+}
+
+.p-12 {
+  padding: 12px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.teamCard {
+  max-width: 310px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 44px 5px rgba(0, 0, 0, 0.08);
+}
+
+.bg-roadmap::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background: url('./assets/img/webp/bg-roadmapa.png');
+  background-position: top;
+  background-size: 100%, 100%;
+  opacity: 0.84;
+}
+
+.bg-roadmap {
+  position: relative;
+  background: linear-gradient(245deg, #1643C3 -7.69%, #000 146.98%);
+}
+
+.pt-115 {
+  padding-top: 115px;
+}
+
+.roadmapCard,
+.roadmap-right {
+  padding: 36px 15px;
+  border-radius: 8px;
+  border: 1px solid var(--primary-color);
+  background: rgba(22, 67, 195, 0.10);
+  position: relative;
+}
+
+.list li {
+  list-style-type: disc !important;
+}
+
+.roadmap-right::after {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  background-color: var(--primary-color);
+  content: "";
+  border-radius: 50%;
+  top: -1px;
+  left: -30px;
+}
+
+.roadmapCard::before {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  background-color: var(--primary-color);
+  content: "";
+  border-radius: 50%;
+  top: -1px;
+  left: -30px;
+}
+
+
+.lineroadmap::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 2px;
+  background-color: var(--primary-color);
+  left: 7%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.max-w-700 {
+  width: 500px;
+}
+
+.webkit-scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+
+.py-150 {
+  padding: 50px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+  .nav-fix {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: -100%;
+    transition: linear 500ms;
+    min-height: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999 !important;
+  }
+
+  .nav-fix div {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .show-nav {
+    position: fixed;
+    width: 100%;
+    background-color: var(--primary-color);
+    top: 0;
+    left: 0;
+    z-index: 999 !important;
+    transition: linear 500ms;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .show-nav div {
+    flex-direction: column;
+    gap: 20px !important;
+  }
+
+  .crossIconset {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+}
+
+@media (min-width:500px) {
+  .lineroadmap::after {
+    left: 7.6%;
+    transform: translateX(-50%);
+  }
+
+  .max-w-700 {
+    max-width: 827px;
+    width: 100% !important;
+    overflow-x: hidden;
+
+  }
+
+  .roadmap-right::after {
+    left: -38px;
+  }
+
+  .roadmapCard::before {
+    left: -38px;
+  }
+}
+
+@media (min-width:500px) {
+  .lineroadmap::after {
+    left: 6%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (min-width:576px) {
+  .bgImgheader {
+    height: 100vh;
+    transform: translateX(0px);
+  }
+
+  .bullImg {
+    width: 100%;
+    height: 370px;
+    /* top: -45px; */
+    transform: translateY(-45px);
+  }
+
+  .pt-300 {
+    padding-top: 90px;
+  }
+
+  .mt-30 {
+    margin-top: 115px;
+  }
+
+  .coludImg {
+    top: 105px;
+    width: 100%;
+  }
+
+  .py176_100 {
+    padding: 80px 0px 70px 0px;
+  }
+
+  .imgCard1 {
+    height: 112px;
+    width: 112;
+  }
+
+  .py-176 {
+    padding: 80px 0px;
+  }
+
+  .imgCard {
+    max-width: 72px;
+    height: 31px;
+    width: 100%;
+  }
+
+  .teamImg {
+    max-width: 285px;
+    width: 100%;
+    height: 225px;
+  }
+
+  .bg-bull {
+    background: url('./assets/img/webp/bg-bull.png') no-repeat;
+    background-position: top;
+    background-size: 100% 40%;
+  }
+
+  .roadmap-right::after {
+    left: -60px;
+  }
+
+  .roadmapCard::before {
+    left: -60px;
+  }
+
+  .lineroadmap::after {
+    left: 10.7%;
+    transform: translateX(-50%);
+  }
+
+  .py-150 {
+    padding: 70px 0px;
+  }
+}
+
+@media (min-width:676px) {
+  .mt-30 {
+    margin-top: 135px;
+  }
+
+  .coludImg {
+    top: 130px;
+    width: 100%;
+  }
+
+  .lineroadmap::after {
+    left: 12%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (min-width:768px) {
+  .lineroadmap::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .pt-132 {
+    padding-top: 132px;
+  }
+
+  .bgImgheader {
+    height: 120vh;
+  }
+
+  .bullImg {
+    width: 100%;
+    height: 450px;
+    /* top: -55px; */
+    transform: translateY(-55px);
+  }
+
+  .mt-30 {
+    margin-top: 140px;
+  }
+
+  .pt-300 {
+    padding-top: 130px;
+  }
+
+  .coludImg {
+    top: 135px;
+    width: 100%;
+  }
+
+  .py176_100 {
+    padding: 100px 0px 80px 0px;
+  }
+
+  .py-176 {
+    padding: 100px 0px;
+  }
+
+  .bg-color {
+    background: linear-gradient(to right, #ffffff 50%, var(--primary-color) 50%);
+  }
+
+  .teamImg {
+    max-width: 285px;
+    width: 100%;
+    height: 180px;
+  }
+
+  .pt-md-60 {
+    padding-top: 60px;
+  }
+
+  .bg-bull {
+    background: url('./assets/img/webp/bg-bull.png') no-repeat;
+    background-position: top;
+    background-size: 100% 65%;
+  }
+
+  .roadmap-right::after {
+    left: -50px;
+  }
+
+  .roadmapCard::before {
+    background-color: transparent;
+    width: 0px;
+  }
+
+  .roadmapCard::after {
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    background-color: var(--primary-color);
+    content: "";
+    border-radius: 50%;
+    top: -1px;
+    right: -50px;
+  }
+
+  .py-150 {
+    padding: 100px 0px;
+  }
+}
+
+@media (min-width:992px) {
+  .heroImg {
+    width: 100%;
+    max-width: 520px;
+    height: 550px;
+  }
+
+  .bgImgheader {
+    max-width: 1240px;
+    width: 100%;
+    height: 93vh;
+    transform: scale(1);
+  }
+
+  .bullImg {
+    width: 100%;
+    height: 600px;
+    /* top: -75px; */
+    transform: translateY(-75px);
+  }
+
+  .pt-lg-310 {
+    padding-top: 210px;
+  }
+
+  .mt-30 {
+    margin-top: 190px;
+  }
+
+  .coludImg {
+    top: 175px;
+    width: 100%;
+  }
+
+  .py176_100 {
+    padding: 156px 0px 100px 0px;
+  }
+
+  .py-176 {
+    padding: 150px 0px;
+  }
+
+  .monkeyImg {
+    height: 110px;
+  }
+
+  .imgCard {
+    max-width: 60px;
+    height: 32px;
+  }
+
+  .teamImg {
+    max-width: 285px;
+    width: 100%;
+    height: 220px;
+  }
+
+  .bg-bull {
+    background: url('./assets/img/webp/bg-bull.png') no-repeat;
+    background-position: top;
+    background-size: 100% 75%;
+  }
+
+  .pt-lg-132 {
+    padding-top: 132px;
+  }
+
+  .roadmap-right::after {
+    left: -112px;
+  }
+
+  .roadmapCard::after {
+    right: -112px;
+  }
+
+  .py-150 {
+    padding: 150px 0px;
+  }
+}
+
+@media (min-width:1024px) {
+  .monkeyImg {
+    height: 140px;
+  }
+
+  .teamImg {
+    max-width: 285px;
+    width: 100%;
+    height: 225px;
+  }
+}
+
+@media (min-width:1200px) {
+  .heroImg {
+    height: 600px;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .bullImg {
+    width: 100%;
+    height: 800px;
+    /* top: -96px; */
+    transform: translateY(-96px);
+
+  }
+
+  .pt-lg-310 {
+    padding-top: 310px;
+  }
+
+  .mt-30 {
+    margin-top: 270px;
+  }
+
+  .coludImg {
+    top: 265px;
+    width: 100%;
+  }
+
+  .py176_100 {
+    padding: 176px 0px 100px 0px;
+  }
+
+  .py-176 {
+    padding: 176px 0px;
+  }
+
+  .monkeyImg {
+    height: 155px;
+  }
+
+  .imgCard {
+    max-width: 72px;
+    height: 32px;
+  }
+}
+
+@media (min-width:1400px) {
+  .heroImg {
+    height: 620px;
+    width: 100%;
+    max-width: 500px;
+    transform: scale(1.2);
+    padding-right: 10px;
+  }
+}
